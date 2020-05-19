@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Новая вкладка</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+</head>
+<body>
+    <svg style="display: none;">
+        <symbol id="cube" viewBox="0 0 512 512">
+            <g>
+                <path d="m30 151h91c16.538 0 30-13.462 30-30v-91c0-16.538-13.462-30-30-30h-91c-16.538 0-30 13.462-30 30v91c0 16.538 13.462 30 30 30z"/><path d="m211 151h90c16.538 0 30-13.462 30-30v-91c0-16.538-13.462-30-30-30h-90c-16.538 0-30 13.462-30 30v91c0 16.538 13.462 30 30 30z"/><path d="m482 0h-91c-16.538 0-30 13.462-30 30v91c0 16.538 13.462 30 30 30h91c16.538 0 30-13.462 30-30v-91c0-16.538-13.462-30-30-30z"/><path d="m30 331h91c16.538 0 30-13.462 30-30v-90c0-16.538-13.462-30-30-30h-91c-16.538 0-30 13.462-30 30v90c0 16.538 13.462 30 30 30z"/><path d="m181 301c0 16.538 13.462 30 30 30h90c16.538 0 30-13.462 30-30v-90c0-16.538-13.462-30-30-30h-90c-16.538 0-30 13.462-30 30z"/><path d="m482 181h-91c-16.538 0-30 13.462-30 30v90c0 16.538 13.462 30 30 30h91c16.538 0 30-13.462 30-30v-90c0-16.538-13.462-30-30-30z"/><path d="m30 512h91c16.538 0 30-13.462 30-30v-91c0-16.538-13.462-30-30-30h-91c-16.538 0-30 13.462-30 30v91c0 16.538 13.462 30 30 30z"/><path d="m181 482c0 16.538 13.462 30 30 30h90c16.538 0 30-13.462 30-30v-91c0-16.538-13.462-30-30-30h-90c-16.538 0-30 13.462-30 30z"/><path d="m482 361h-91c-16.538 0-30 13.462-30 30v91c0 16.538 13.462 30 30 30h91c16.538 0 30-13.462 30-30v-91c0-16.538-13.462-30-30-30z"/>
+            </g>
+        </symbol>
+    </svg>
+    <header class="header">
+        <nav class="nav">
+            <ul>
+                <li><a href="#" class="link">Почта</a></li>
+                <li><a href="#" class="link">Картинки</a></li>
+                <li class="border"><a href="#" class="link">
+                    <svg class="cube_icon">
+                        <use xlink:href="#cube"></use>
+                    </svg>
+                </a></li>
+                <li><a href="#" class="sing_up">Войти</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="google">
+            <div class="google__items">
+                <div class="google__logo">
+                    <img class="google__img" src="img/google.png" alt="google">
+                </div>
+
+                <div class="search">
+                    <div class="input__box">
+                            <input id="search" type="button" value="">
+                            <input id="fakebox-input" autocomplete="off" type="search" placeholder="Введите поисковый запрос или URL">
+                            <input id="micro" type="button" value="">
+                    </div>
+                </div>
+                <div class="button__item">
+                    <input class="button" type="button" value="Поиск в Google">
+                    <input class="button" type="button" value="Мне повезёт!">
+                </div>
+                <p class="text_sevice">Сервисы Google доступны на разных языках: <a class="uk_link" href="#">українська</a> </p>
+            </div>
+        </div>
+    </main>
+    <footer class="footer">
+        <p class="country">Украина</p>
+    </footer>
+</body>
+</html>
